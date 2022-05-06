@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>My story in Korea!</h1>
+      <!--제목, page title, article title-->
+      <nav>
+          <ol type="A" start="10" reversed>
+              <!--ordered list-->
+              <!--type: a, A, i, I, 1-->
+              <!--start: 2...-->
+              <!--reversed: ...-->
+              <li><a href="#">Home</a></li>
+              <!--list item-->
+              <li value="26"><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ol>
+            <ul>
+                <!--un-ordered list-->
+                <li><a href="#">Home</a></li>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Hello</h2>
+        <h3>Cryptids of Cornwall.</h3>
+        <article>
+            <dl>
+                <!--definition list, implement a glossary or to display metadata (a list of key-value pairs).-->
+                <div>
+                    <dt>Beast of Bodmin</dt>
+                    <!--definition term-->
+                    <dd>A large feline inhabiting Bodmin Moor</dd>
+                    <!--definition description-->
+                </div>
+                <div>
+                    <dt>Owlman</dt>
+                    <dt>Owlwoman</dt>
+                    <dd>A giant owl-like creature</dd>
+                </div>
+                <div>
+                    <dt>Firefox</dt>
+                    <dd>Don't know</dd>
+                    <dd>Don't know</dd>
+                </div>
+            </dl>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, illum
+                neque hic, similique atque sequi soluta esse ex ratione reprehenderit
+                nesciunt eum illo! Voluptatem neque eos tempora! Laudantium, eius
+                deserunt?
+            </p>
+            <aside>
+                <!--sidebars or call-out boxes-->
+                <p>Tracy Vu</p>
+            </aside>
+        </article>
+        <article>
+            <!--a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable.-->
+            <section>
+                <!-- Examples include: a forum post, a magazine or newspaper article, or a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.-->
+                <h3>Introduction</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias sed
+                    vero facilis excepturi nihil praesentium illo, sint tenetur pariatur
+                    porro non fugit dicta officiis officia rem voluptas recusandae
+                    veritatis voluptatem.
+                </p>
+            </section>
+            <section>
+                <h3>Criteria</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam
+                    est, quisquam fugit laboriosam autem corporis odio veniam amet! Nemo
+                    nostrum iure perspiciatis magnam dolores placeat explicabo saepe
+                    magni asperiores laudantium!
+                </p>
+                <table>
+                    <caption>
+                        Example table
+                    </caption>
+                    <!--caption element have to be the first descendant of the table, regardless its view posion-->
+                    <!--When the <table> element that contains the <caption> is the only descendant of a <figure> element, you should use the <figcaption> element instead of <caption>.-->
+                        <thead>
+                            <tr>
+                                <th scope="col">No.</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Phone</th>
+                                <th scope="col">Payment</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th colspan="4">Team 1</th>
+                            </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td>Nguyen Van A</td>
+                <td>111-2222</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Nguyen Thi B</td>
+                <td>333-4444</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <th colspan="4">Team 2</th>
+            </tr>
+            <tr>
+                <th scope="row">1</th>
+                <td>Nguyen Van C</td>
+                <td>222-1111</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Nguyen Thi D</td>
+                <td>444-3333</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Total payment</th>
+                <td>80</td>
+            </tr>
+        </tfoot>
+    </table>
+</section>
+<img
+  src="/img/Wpap_2012814_57.jpg"
+  alt="Ragnarok Online"
+  title="RO image"
+  width="300"
+/>
+<img
+  src="https://imgc1.gnjoy.com/games/ro1/object/201310/Wpap/Wpap_2012814_57.jpg"
+  alt="Ragnarok Online"
+  height="300"
+/>
+<img
+  src="/img/600.png"
+  srcset="/img/300.png 300w, /img/450.png 450w, /img/600.png 600w"
+  sizes="(min-width: 600px) 600px, (min-width: 450px) 450px, 300px"
+  alt="srcset example"
+/>
+<br />
+<video src="/video/sample-mp4-file-small.mp4" autoplay muted loop>
+  Sorry, your browser doesn't support embedded videos.
+</video>
+<video controls>
+  <source src="/video/sample-mp4-file-small.mp4">
+  Sorry, your browser does not support embedded videos.
+</video>
+<figure>
+    <figcaption>Audio sample</figcaption>
+    <audio src="/audio/2018_hn_studentbook1.mp3" controls>
+        Your browser does not support the <code>audio</code> element.
+    </audio>
+</figure>
+      </article>
+    </main>
+    <footer>
+      <p>From Tracy</p>
+      <!--author, copy right-->
+    </footer>
+  </body>
+</html>
